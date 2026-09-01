@@ -1,29 +1,13 @@
 # roblox-tower-defense
 
-Tower Defense converted from the existing Roblox Studio place file into a
-[Rojo](https://github.com/rojo-rbx/rojo) 7.7.0 project.
+## General Info
 
-## Getting Started
+This game is a tower defense game that I built in Roblox Studio with the Lua programming language.
 
-To build the place from source, use:
+It includes the following features:
+* Enemies of various archetypes that spawn each wave; each enemy has health and pathfinding capabilities, and its stats increase as waves progress
+* Tower placement system with towers that have the ability to track and fire at enemies, as well as upgrade and selling mechanics
+* A game over state when enemies reach the base
+* UI to support many of the game's mechanics (UI that indicates base health, wave number, current cash, intermission, etc.)
 
-```bash
-rojo build default.project.json -o "roblox-tower-defense.rbxlx"
-```
-
-Open `roblox-tower-defense.rbxlx` in Roblox Studio, then start the Rojo server:
-
-```bash
-rojo serve default.project.json
-```
-
-## Syncing From Studio
-
-This repo includes `syncback.project.json`, which was used to pull the existing
-Studio place into the `src` tree:
-
-```bash
-rojo syncback syncback.project.json --input "C:\Users\mchen\roblox-projects\TowerDefense.rbxl" --non-interactive
-```
-
-After syncing, rebuild or serve with `default.project.json`.
+I used Rojo to convert it from a .rbxl file to a Visual Studio Code project so that I could publish it on GitHub. Most, if not all of the source code in the place file should have been transferred properly.

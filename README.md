@@ -31,4 +31,6 @@ I used Rojo to convert it from a .rbxl file to a Visual Studio Code project so t
 3. **Launch** - You can double click on it or right click on it and click open to launch/open the rbxl file
 
 ## Preview
-![Roblox tower defense game preview](./screenshots/GamePreview.png)
+<p align="center">
+    <img width="1657" height="763" alt="Roblox tower defense preview" src="https://github.com/user-attachments/assets/e71841a4-a3f1-4c1e-ad61-5a315ca914aa" />
+</p>

@@ -20,7 +20,7 @@ local function initValue(npc : Model, bossType : "boss" | "miniboss")
 end
 
 function module.miniBoss()
-	local npc = ReplicatedStorage:FindFirstChild(""):Clone()
+	local npc = ReplicatedStorage:FindFirstChild("NPCModel"):Clone()
 	initValue(npc, "miniboss")
 	task.spawn(function()
 		for i, v in npc:GetChildren() do
@@ -49,7 +49,7 @@ function module.miniBoss()
 end
 
 function module.bigBoss()
-	local npc = ReplicatedStorage:FindFirstChild(""):Clone()
+	local npc = ReplicatedStorage:FindFirstChild("NPCModel"):Clone()
 	initValue(npc, "boss")
 	task.spawn(function()
 		for i, v in npc:GetChildren() do

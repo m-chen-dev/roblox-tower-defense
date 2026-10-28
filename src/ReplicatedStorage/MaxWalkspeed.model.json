@@ -1,6 +1,9 @@
 {
   "className": "IntValue",
   "properties": {
-    "Value": 9.0
+    "Value": 9.0,
+    "SerializedOverrides": {
+      "BinaryString": ""
+    }
   }
 }

@@ -1,3 +1,8 @@
 {
-  "className": "ChannelTabsConfiguration"
+  "className": "ChannelTabsConfiguration",
+  "properties": {
+    "SerializedOverrides": {
+      "BinaryString": ""
+    }
+  }
 }

@@ -32,7 +32,7 @@ HandleSpawns()
 
 
 local InitSpawnNPC = require(ReplicatedStorage.NPC.InitSpawnNPC)
-local npc = ReplicatedStorage:FindFirstChild("")
+local npc = ReplicatedStorage:FindFirstChild("NPCModel")
 
 InitSpawnNPC(npc)
 

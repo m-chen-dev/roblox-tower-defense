@@ -105,7 +105,7 @@ return function(npc : Model, mutation : string)
 		
 		humanoid.Died:Connect(function()
 			local pivot = npc:GetPivot()
-			local clone = ReplicatedStorage:FindFirstChild(""):Clone()
+			local clone = ReplicatedStorage:FindFirstChild("NPCModel"):Clone()
 			local movingToPart = npc:FindFirstChild("MovingToPart") :: ObjectValue
 			local path = workspace.Path:GetChildren()
 			local cloneHumanoid = clone:FindFirstChildOfClass("Humanoid")

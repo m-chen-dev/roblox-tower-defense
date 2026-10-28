@@ -5,6 +5,8 @@ return function()
 	local currentWave = ReplicatedStorage.CurrentWave
 	local cashPerWave = require(script.CashPerWave)
 	for i, player in Players:GetPlayers() do
-		player:WaitForChild("leaderstats"):WaitForChild("Cash").Value += cashPerWave[currentWave.Value]
+		if currentWave.Value >= 1 and currentWave.Value <= #cashPerWave then
+			player:WaitForChild("leaderstats"):WaitForChild("Cash").Value += cashPerWave[currentWave.Value]
+		end
 	end
 end

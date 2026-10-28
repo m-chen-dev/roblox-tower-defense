@@ -13,6 +13,8 @@ return function(npc : Model, name : string)
 	humanoid.Died:Connect(function()
 		task.wait(0.35)
 		npc:Destroy()
-		ReplicatedStorage.CurrentEnemies.Value -= 1
+	end)
+	npc.Destroying:Connect(function()
+		ReplicatedStorage.CurrentEnemies.Value = math.max(0, ReplicatedStorage.CurrentEnemies.Value - 1)
 	end)
 end

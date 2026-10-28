@@ -26,6 +26,9 @@
         ],
         "Outlines": false,
         "PrioritizeLightingQuality": true,
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "ShadowSoftness": 0.20000000298023224,
         "Technology": "ShadowMap",
         "TimeOfDay": "14:30:00"
@@ -33,45 +36,92 @@
       "$path": "src/Lighting"
     },
     "ReplicatedStorage": {
+      "$properties": {
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
+      },
       "$path": "src/ReplicatedStorage"
     },
     "ServerScriptService": {
+      "$properties": {
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
+      },
       "$path": "src/ServerScriptService"
     },
     "ServerStorage": {
+      "$properties": {
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
+      },
       "$path": "src/ServerStorage"
     },
     "SoundService": {
       "$properties": {
         "DefaultListenerLocation": "Camera",
-        "RespectFilteringEnabled": true
+        "RespectFilteringEnabled": true,
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
       },
       "$path": "src/SoundService"
     },
     "StarterGui": {
       "$properties": {
-        "ScreenOrientation": "Sensor"
+        "ScreenOrientation": "Sensor",
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
       },
       "$path": "src/StarterGui"
     },
     "StarterPack": {
+      "$properties": {
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
+      },
       "$path": "src/StarterPack"
     },
     "StarterPlayer": {
-      "$properties": {
-        "CameraMaxZoomDistance": 128.0,
-        "CharacterUseJumpPower": false
-      },
       "StarterCharacterScripts": {
         "$className": "StarterCharacterScripts",
+        "$properties": {
+          "SerializedOverrides": {
+            "BinaryString": ""
+          }
+        },
         "$path": "src/StarterPlayer/StarterCharacterScripts"
       },
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
+        "$properties": {
+          "SerializedOverrides": {
+            "BinaryString": ""
+          }
+        },
         "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$properties": {
+        "CameraMaxZoomDistance": 128.0,
+        "CharacterUseJumpPower": false,
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
+        "UseImprovedCharacterEvents": {
+          "Enum": 0
+        }
       }
     },
     "Teams": {
+      "$properties": {
+        "SerializedOverrides": {
+          "BinaryString": ""
+        }
+      },
       "$path": "src/Teams"
     },
     "TextChatService": {
@@ -79,25 +129,69 @@
         "ChatVersion": "TextChatService",
         "PlatformIntegratedChat": {
           "Enum": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
         }
       },
       "$path": "src/TextChatService"
     },
     "Workspace": {
       "$properties": {
+        "AutoSimulate": {
+          "Bool": true
+        },
         "CollisionGroupData": {
           "BinaryString": "AQYABPf///8HRGVmYXVsdAEE8f///wNOUEMCBPX///8GUGxheWVyAwTg////BVJhbmdlBAT3////EFN0dWRpb1NlbGVjdGFibGUFBP////8JQmFzZVBsYXRl"
         },
         "ExpandedTerrain": {
           "Enum": 0
         },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "MapTVRemoteToGamepadKeycodes": {
+          "Enum": 0
+        },
         "PredictiveStreamingMode": {
           "Enum": 0
         },
+        "ReplicationFrequency": {
+          "Enum": 0
+        },
+        "ReplicationThroughput": {
+          "Enum": 0
+        },
+        "SerializedOverrides": {
+          "BinaryString": ""
+        },
         "SignalBehavior": "Deferred",
+        "SimulationRate": {
+          "Float32": 1.0
+        },
         "StreamOutBehavior": "Opportunistic",
+        "StreamingAdaptiveRadius": {
+          "Bool": false
+        },
         "StreamingEnabled": true,
         "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "UseInputSink": {
+          "Enum": 0
+        },
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
         "WorldPivotData": {
           "OptionalCFrame": {
             "position": [

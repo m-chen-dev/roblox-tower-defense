@@ -27,5 +27,4 @@ I used Rojo to convert it from a .rbxl file to a Visual Studio Code project so t
     rojo build -o TowerDefense.rbxl
     ```
     *You can replace TowerDefense with another name if you want*
-3. **Launch** 
-    You can double click on it or right click on it and click open to launch/open the rbxl file
+3. **Launch** - You can double click on it or right click on it and click open to launch/open the rbxl file
